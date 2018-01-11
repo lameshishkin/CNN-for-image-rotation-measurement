@@ -4,12 +4,12 @@ Objective is to develop convolutional neural network for image rotation measurme
 Input data for CNN is rotated image, output data - rotation angle.
 
 # Image descripton:
-  size 128x128 pixels;
-  white background, containing from 1 to 5 black rectangles;
-  height and width of each rectangle from 1 to 128 pixels;
-  line width from 12 to ??? pixels;
-  center of each rectangle is within the image;
-  angle of rotation between -10 and 10 degrees.
+  *size 128x128 pixels;
+  *white background, containing from 1 to 5 black rectangles;
+  *height and width of each rectangle from 1 to 128 pixels;
+  *line width from 12 to ??? pixels;
+  *center of each rectangle is within the image;
+  *angle of rotation between -10 and 10 degrees.
   
 Size of train set is 10000 samples and validation set 1000 samples, each sample contain rotated image and value of rotation angle.
 
